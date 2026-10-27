@@ -80,3 +80,27 @@ The bindings are released into the public domain under [CC0 1.0](LICENSE).
 
 SDL itself is © Sam Lantinga and distributed under the [zlib license](https://github.com/libsdl-org/SDL/blob/main/LICENSE.txt).
 The doc comments in `src/sdl3/` are adapted from SDL's headers and remain under that license.
+
+# ☦
+
+```
+   Ὤ
+ Ὁ   Ν
+Ι̅Ϲ̅ │ Χ̅Ϲ̅
+───┼───
+ΝΙ │ ΚΑ
+   ☦
+```
+
+Εἰς δόξαν τοῦ Θεοῦ<br>
+*To the glory of God*
+
+Τῇ Ὑπεραγίᾳ Θεοτόκῳ δόξα<br>
+*Glory to the Most Holy Theotokos*
+
+Δόξα τῷ Θεῷ πάντων ἕνεκεν<br>
+*Glory to God for all things*
+
+ΑΜΗΝ
+
+☦
