@@ -1933,9 +1933,11 @@ fn refAllDeclsRecursive(comptime T: type, comptime depth: u32) void {
 pub const Error = error{SdlError};
 
 /// Logs the current SDL error (see `getError`) and returns `error.SdlError`.
+///
+/// Logging is currently disabled to keep the original SDL3 workflow, the error will only be returned.
 pub fn makeError() error{SdlError} {
-    const str = getError();
-    if (str.len > 0) logError(.@"error", "{s}", .{str});
+    //const str = getError();
+    //if (str.len > 0) logError(.@"error", "{s}", .{str});
     return error.SdlError;
 }
 
