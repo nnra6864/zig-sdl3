@@ -105,12 +105,12 @@ pub const vk = struct {
     /// Vulkan's vkCreateInstance API.
     ///
     /// You should not free the returned array; it is owned by SDL.
-    pub fn getInstanceExtensions() Error![][*:0]const u8 {
+    pub fn getInstanceExtensions() Error![]const [*:0]const u8 {
         var count: u32 = undefined;
         const ptr = SDL_Vulkan_GetInstanceExtensions(&count) orelse return makeError();
         return ptr[0..@intCast(count)];
     }
-    extern fn SDL_Vulkan_GetInstanceExtensions(count: ?*u32) ?[*][*:0]const u8;
+    extern fn SDL_Vulkan_GetInstanceExtensions(count: ?*u32) ?[*]const [*:0]const u8;
 
     /// Create a Vulkan rendering surface for a window.
     ///
